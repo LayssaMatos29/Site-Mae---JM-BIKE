@@ -1,0 +1,23 @@
+*{
+    background-image: url("https://www.avimortecidos.com.br/static/6370/sku/thumb_tricoline-tecido-tricoline-liso-verde-bandeira-100-algodao-d660--p-1563219225388.jpeg");
+    /* background-repeat: no-repeat; */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+i, span {
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
